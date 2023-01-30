@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins" ,sans-serif;
+
+}
+body{
+    /* background-color: bisque; */
+     background-image:url('./img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg'); 
+    background-size: cover;
+}
+.wrapper{
+    width: 400px;
+    /* border: 1px solid wheat; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    
+}
+.container{
+    width: 100%;
+    background-color: rgb(4, 4, 4);
+    padding: 50px 40px;
+    /* box-shadow: 0 20px 65px rgb(87,11,16,.5); */
+    position: relative;
+    border-radius: 10px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */ 
+     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+.container:after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 120%;
+    background-color: #f4e8e8;
+    z-index: -1;
+    top: -10%;
+    left: 10%;
+
+}
+.container p{
+    color: rgb(232, 245, 245);
+    line-height: 2;
+    font-size: 18px;
+
+}
+.container h3{
+    color: rgb(216, 184, 246);
+    margin:20px 0 60px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.container button{
+    background-color: rgb(209, 172, 11);
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color:rgb(4, 4, 4) ;
+    position: relative;
+    left: 20px;
+   
+    
+}
+/* .container button:hover{
+    background-color: azure;
+    color: black;
+} */
